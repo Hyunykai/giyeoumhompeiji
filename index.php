@@ -10,7 +10,7 @@
         <meta property="og:title" content="MUNIT - 모두의 커뮤니티">
         <meta property="og:description" content="MUNIT과 함께 더욱 편리한 커뮤니케이션">
         <meta property="og:image" content="https://munit.me/image/munitlogo.png">
-        <title>munit - 시작하기</title> <!--사이트 이름 설정-->
+        <title>GIYEOUM</title> <!--사이트 이름 설정-->
         <link rel="stylesheet" href="css/style.css"> <!--css스타일 연결-->
         <script type="module" src="login/firebase-init.js"></script>
     </head>
