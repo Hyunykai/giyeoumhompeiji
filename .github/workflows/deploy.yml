@@ -17,7 +17,7 @@ jobs:
       - name: Upload to FTP server
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
-          ftp-server: ftp://yourdomain.com
+          ftp-server: 192.185.17.111
           ftp-username: ${{ secrets.FTP_USERNAME }}
           ftp-password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./ # 로컬 디렉토리 경로 (기본적으로 모든 파일)
