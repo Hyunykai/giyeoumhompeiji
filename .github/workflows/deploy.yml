@@ -3,7 +3,7 @@ name: Deploy to FTP Server
 on:
   push:
     branches:
-      - main # main 브랜치에 푸시할 때 트리거
+      - main  # main 브랜치에 푸시할 때 트리거
 
 jobs:
   ftp-deploy:
@@ -17,8 +17,8 @@ jobs:
       - name: Upload to FTP server
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
-          ftp-server: 192.185.17.111
-          ftp-username: ${{ secrets.FTP_USERNAME }}
-          ftp-password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./ # 로컬 디렉토리 경로 (기본적으로 모든 파일)
-          server-dir: /public_html/ # FTP 서버의 업로드 디렉토리
+          server: ftp://192.185.17.111  # FTP 서버의 IP 주소
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./ # 로컬 디렉토리 경로
+          server-dir: /public_html/yourfolder/ # FTP 서버의 업로드 디렉토리
