@@ -8,7 +8,7 @@
         <meta name="naver-site-verification" content="c70fbada5f85926fb6e8c32296b79e048663f0d5" /> <!--네이버 노출 설정-->
         <link rel="icon" type="image/png" href="https://munit.me/image/munit_papi.png">
         <meta property="og:title" content="MUNIT - 모두의 커뮤니티">
-        <meta property="og:description" content="MUNIT과 함께 더욱 편리한 커뮤니케이션">
+        <meta property="og:description" content="MUNIT">
         <meta property="og:image" content="https://munit.me/image/munitlogo.png">
         <title>GIYEOUM</title> <!--사이트 이름 설정-->
         <link rel="stylesheet" href="css/style.css"> <!--css스타일 연결-->
